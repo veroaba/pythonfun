@@ -1,0 +1,13 @@
+[project]
+name = "pythonfun"
+version = "0.1.0"
+description = "Add a short description here"
+channels = ["conda-forge"]
+platforms = ["osx-64"]
+
+[tasks]
+
+[dependencies]
+python = ">=3.12.2,<3.13"
+pytest = ">=8.1.1,<8.2"
+jupyter = ">=1.0.0,<1.1"
